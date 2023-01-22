@@ -140,6 +140,7 @@ end
 -- return: element_list  A table of strings, where each string is a comma-separated definition of a clickabledata item.
 --]
 function load_module(dcs_install_path, module_name)
+	--print("module name", module_name, "clickabledata.lua found")
 	LockOn_Options = {}
 
 	-- Specialty case handling for odd multi-version modules.
