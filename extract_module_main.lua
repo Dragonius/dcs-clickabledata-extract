@@ -18,8 +18,7 @@ print("How many planes we got on list :" , size1, "\n")
 
 -- Instructions:
 -- Specify DCS Installation path and module to extract below
--- local dcs_install_path = [[C:\Program Files\Eagle Dynamics\DCS World OpenBeta]]
-local dcs_install_path = [[F:\\Pelit\\Steam\\steamapps\\common\\DCSWorld]]
+local dcs_install_path = [[C:\Program Files\Eagle Dynamics\DCS World OpenBeta]]
 dofile("clickabledata_extract_functions.lua")
 
 while onlist <= size1 do
